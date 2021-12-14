@@ -1,0 +1,15 @@
+sudo: false
+
+language: node_js
+node_js:
+  - 9
+
+branches:
+  only:
+    - main
+
+deploy:
+  provider: heroku
+  app: "missing-homework-bot"
+  api_key:
+    secure: "85b5a1c7-94ab-4821-b10c-33ebf769cc8d"
