@@ -63,7 +63,7 @@ def simple_text(message):
 
     if message.text == '🎲 Рандомное число':
         print_random(message.chat.id)
-    elif message.text == 'Задать диапозон':
+    elif message.text == '🤔 Задать диапозон':
         markup = types.InlineKeyboardMarkup(row_width=3)
         fill_markup_random(markup)
 
