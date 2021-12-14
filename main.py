@@ -16,7 +16,7 @@ def starting(message):
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     item1 = types.KeyboardButton("🎲 Рандомное число")
-    item2 = types.KeyboardButton("Задать диапозон")
+    item2 = types.KeyboardButton("🤔 Задать диапозон")
 
     markup.add(item1, item2)
 
